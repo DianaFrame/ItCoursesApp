@@ -37,12 +37,23 @@ android {
 
 dependencies {
 
+    implementation(project(path = ":domain"))
+    implementation(project(path = ":data"))
+    implementation(libs.fragment.ktx)
+    implementation(libs.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.picasso)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.koin.core)
+    implementation(libs.koin.android)
+    testImplementation(libs.koin.test)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }
