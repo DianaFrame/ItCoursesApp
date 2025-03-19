@@ -36,6 +36,7 @@ dependencies {
     implementation(project(path = ":domain"))
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
+    implementation(libs.kotlinx.coroutines.core)
     implementation(libs.okhttp)
     implementation(libs.logging.interceptor)
     testImplementation(libs.junit)

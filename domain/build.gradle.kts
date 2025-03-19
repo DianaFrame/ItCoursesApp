@@ -12,6 +12,7 @@ tasks.test{
 }
 
 dependencies{
+    implementation(libs.kotlinx.coroutines.core)
     testImplementation(libs.junit.jupiter)
     testImplementation(libs.mockito.core)
     testImplementation(libs.mockito.kotlin)
