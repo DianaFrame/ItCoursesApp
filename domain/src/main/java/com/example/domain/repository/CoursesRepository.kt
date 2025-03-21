@@ -22,8 +22,7 @@ interface CoursesRepository {
 
     fun getCoursesListSortedByPublishDate(): Flow<List<CoursesListItem>>
 
-    suspend fun insertFavouriteCourse(coursesListItem: CoursesListItem)
+    suspend fun changeHasLikeByCourseList(coursesListItem: CoursesListItem)
 
-    suspend fun deleteFavouriteCourse(coursesListItem: CoursesListItem)
 
 }
