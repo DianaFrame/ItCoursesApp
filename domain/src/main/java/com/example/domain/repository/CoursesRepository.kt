@@ -14,12 +14,16 @@ interface CoursesRepository {
         return loginPattern.matches(login) && password.trim() != ""
     }
 
+    suspend fun insertCoursesListIntoDb()
+
     fun getCoursesList(): Flow<List<CoursesListItem>>
 
     fun getFavouritesCoursesList(): Flow<List<CoursesListItem>>
 
-    fun filterForPublishDate(coursesList: List<CoursesListItem>): List<CoursesListItem> {
-        return coursesList.sortedBy { it.publishDate }
-    }
+    fun getCoursesListSortedByPublishDate(): Flow<List<CoursesListItem>>
+
+    suspend fun insertFavouriteCourse(coursesListItem: CoursesListItem)
+
+    suspend fun deleteFavouriteCourse(coursesListItem: CoursesListItem)
 
 }
