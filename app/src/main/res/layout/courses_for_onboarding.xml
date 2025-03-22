@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="426dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="337dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="337dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="-27dp"
+        tools:layout_editor_absoluteY="337dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="259dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="259dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="259dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="-28dp"
+        tools:layout_editor_absoluteY="259dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="184dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="184dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="184dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="89dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="337dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_radius"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_for_onboarding" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

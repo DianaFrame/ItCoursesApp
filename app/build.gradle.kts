@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.itcoursesapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.itcoursesapp"
@@ -33,6 +33,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures{
+        viewBinding = true
     }
 }
 
