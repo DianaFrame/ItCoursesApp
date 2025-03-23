@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:icon="@drawable/icon_home"
+        android:icon="@drawable/home"
         android:title="Главная" />
     <item
-        android:icon="@drawable/icon_favourite"
+        android:icon="@drawable/favourite"
         android:title="Избранное" />
     <item
-        android:icon="@drawable/icon_account"
+        android:icon="@drawable/account"
         android:title="Аккаунт" />
 </menu>

@@ -20,12 +20,16 @@
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_loginFragment_to_coursesListFragment"
-            app:destination="@id/coursesListFragment" />
+            android:id="@+id/action_loginFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
     <fragment
-        android:id="@+id/coursesListFragment"
-        android:name="com.example.itcoursesapp.presentation.fragments.CoursesListFragment"
-        android:label="fragment_courses_list"
-        tools:layout="@layout/fragment_courses_list" />
+        android:id="@+id/mainFragment"
+        android:name="com.example.itcoursesapp.presentation.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
 </navigation>
