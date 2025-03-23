@@ -10,7 +10,7 @@ import com.example.itcoursesapp.databinding.FragmentCoursesListBinding
 
 class CoursesListFragment : Fragment() {
 
-    lateinit var binding: FragmentCoursesListBinding
+    private lateinit var binding: FragmentCoursesListBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

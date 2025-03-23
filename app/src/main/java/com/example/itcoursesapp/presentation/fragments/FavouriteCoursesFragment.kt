@@ -9,7 +9,7 @@ import com.example.itcoursesapp.databinding.FragmentFavouriteCoursesBinding
 
 class FavouriteCoursesFragment : Fragment() {
 
-    lateinit var binding: FragmentFavouriteCoursesBinding
+    private lateinit var binding: FragmentFavouriteCoursesBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
