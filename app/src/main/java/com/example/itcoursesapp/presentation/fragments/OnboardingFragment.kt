@@ -6,17 +6,29 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.itcoursesapp.R
+import com.example.itcoursesapp.databinding.FragmentOnboardingBinding
 
 
 class OnboardingFragment : Fragment() {
 
-
+    lateinit var binding: FragmentOnboardingBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
+        binding = FragmentOnboardingBinding.inflate(inflater)
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_onboarding, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.horizontalScrollView.apply {
+            post { scrollTo(250, 0) }
+        }
+
+
     }
 
     companion object {
